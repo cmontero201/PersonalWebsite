@@ -16,12 +16,13 @@ function App() {
 
       <main>
         <Navigation />
-        <Intro/>
+        <Intro />
         <About />
         <Skills />
         <Projects />
         <Contact />
       </main>
+      
 
       <div className="page-footer">
         <a href="https://github.com/cmontero201/" target="_blank" rel="nofollow noopener noreferrer"

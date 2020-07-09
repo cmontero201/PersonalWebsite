@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap/';
 
 import self from '../img/self.png'
+import resume from '../resume/Christian_Montero_Resume.pdf'
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                 <div className="about-container">
                     <h3 className="section-head"> About Me </h3>
                     <Row>
-                        <Col sm={12} md={8} lg={8}>
+                        <Col xs={12} sm={12} md={8} lg={8}>
                             <p>
                                 I'm a hard-working, self-motivated, and enthusiastic professional with experience in
                                 full-stack
@@ -44,10 +45,10 @@ const About = () => {
                             </p>
 
                         </Col>
-                        <Col className='image-container'>
+                        <Col xs={12} sm={12} md={4} lg={4} className="image-container text-center">
                             <img
                                 id='about-image'
-                                alt="self-image"
+                                alt="self"
                                 src={self}
                                 width="275"
                                 height="275"
@@ -56,8 +57,8 @@ const About = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col id="resume-link-container" sm={12} md={8} lg={8}>
-                            <a id="resume-link" className="link"  href="/"> Resume </a>
+                        <Col xs={12} id="resume-link-container" sm={12} md={8} lg={8}>
+                            <a id="resume-link" className="link"  href={resume} target = "_blank" rel="noopener noreferrer"> Resume </a>
                         </Col>
                     </Row>
                 </div>

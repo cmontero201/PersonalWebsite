@@ -8,9 +8,9 @@ const Intro = () => {
         <Container >
             <section id="intro" className="content">
                 <div className="intro-container">
-                    <h1 id='intro1'> Hi, my name is </h1>
+                    <h1 id='intro1'> Hello! My name is </h1>
                     <h2 id='intro2'> Christian Montero. </h2>
-                    <h3 id='intro3'> I build applications for the web. </h3>
+                    <h3 id='intro3'> I love building things. </h3>
 
                     <Row>
                         <Col id='blurb' sm={12} md={9} lg={8}>
@@ -31,8 +31,22 @@ const Intro = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col id="resume-link-container" sm={12} md={8} lg={8}>
-                            <a id="resume-link" className="link" href="mailto:cmontero@bu.edu" target="_blank" rel="nofollow noopener noreferrer"> Contact Me </a>
+                        <Col xs={2} sm={2} md={2} lg={2}>
+                            <a id="social" className="btn btn-social text-center rounded-circle" href="https://github.com/cmontero201" target="_blank" rel="noopener noreferrer" >
+                                <i className="fa fa-fw fa-github"></i>
+                            </a>
+                        </Col>
+                        <Col xs={2} sm={2} md={2} lg={2}>
+                            <a id="social" className="btn btn-social text-center rounded-circle" href="https://www.linkedin.com/in/cmontero201/" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-fw fa-linkedin"></i>
+                            </a>
+                        </Col>
+                        <Col xs={2} sm={2} md={2} lg={2}>
+                            <a id="social" className="btn btn-social text-center rounded-circle" href="mailto:cmontero@bu.edu">
+                                <i className="fa fa-fw fa-envelope"></i>
+                            </a>
+                        </Col>
+                        <Col xs={6} sm={6} md={6} lg={6}> 
                         </Col>
                     </Row>
 

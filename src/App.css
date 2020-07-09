@@ -52,6 +52,7 @@ p, a, body {
 
 
 .section-head {
+  color: black;
   font-weight: 600;
   font-size: 34px;
 }
@@ -74,10 +75,23 @@ hr {
   width: 70%;
 }
 
+#line-left {
+  border-left: 6px solid black;
+  height: 500px;
+}
+
+#social {
+  width: 4.25rem;
+  height: 4.25rem;
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+
 /* -------- NAVIGATION -------- */
 .navigation {
   background-color: whitesmoke;
-  box-shadow: 2px 2px 6px rgba(151, 151, 151, 0.25);;
+  box-shadow: 2px 2px 6px rgba(151, 151, 151, 0.25);
+  height: 70px;
 }
 
 /* -------- INTRODUCTION -------- */
@@ -94,7 +108,6 @@ hr {
   line-height: 20px;
   margin-left: 3px;
   margin-right: 0px;
-  margin-bottom: 20px;
   /* color: #498500 */
   color: rgb(118, 210, 76);
 }
@@ -126,9 +139,9 @@ hr {
 
 #about-image {
   box-sizing: inherit;
-  display: inline-block;
-  position: absolute;
-  margin: auto;
+  display:  inline-block;
+  position: relative;
+  margin: 0 auto;
   z-index: 1;
   box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.799);
   border-radius:  50%;
@@ -138,22 +151,28 @@ hr {
 
 .image-container {
   position: relative;
+  justify-content: center;
 }
 
-.circle {
-  z-index: 0;
-  margin-top: 5px;
-  margin-left: 5px;
-  width: 290px;
-  height: 290px;
+/* .circle {
+  z-index: 1;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 280px;
+  height: 280px;
   background: rgb(118, 210, 76);
   opacity: 45%;
   border-radius: 50%;
-}
+  border: 5px solid #0056b3;
+} */
 
 #resume-link-container {
+  padding-top: 2.5rem;
+}
+
+#resume-link-container2 {
   display: inline-flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 #resume-link {
@@ -198,7 +217,7 @@ hr {
 
 #contact {
   padding-top: 20%;
-  padding-bottom: 15%;
+  padding-bottom: 2%;
 }
 
 #contact-head, #contact-body {
@@ -212,4 +231,13 @@ hr {
   padding-bottom: 2%;
   font-size: 10px;
   font-weight: 300;
+}
+
+.footer-social {
+  justify-content: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+#resume-link {
+  margin: auto;
 }
