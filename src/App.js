@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
 
 import Container from 'react-bootstrap/Container';
 
