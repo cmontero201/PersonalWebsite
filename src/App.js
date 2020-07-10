@@ -27,8 +27,14 @@ function App() {
       <div className="page-footer">
         <a href="https://github.com/cmontero201/" target="_blank" rel="nofollow noopener noreferrer"
           id="footer" className="styled-link">
-          <div> Designed &amp; Built by Christian Montero </div>
+          <div> Built by Christian Montero </div>
         </a>
+        <a href="https://github.com/bchiang7/v4" target="_blank" rel="nofollow noopener noreferrer"
+          id="footer" className="styled-link">
+          <div> Design Inspired by bchiang7 </div>
+        </a>
+    
+    <div> Inspired by &amp; 
       </div>
 
     </Container>
