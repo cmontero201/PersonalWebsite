@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "037826c15512e2b78a0cf1d8e77b0ac3",
+    "revision": "42137eb07c1b23cff8055aac71c5451a",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "83f42c9a6b32bad1198a",
+    "revision": "5ad8b9d468bbc29a635c",
     "url": "/static/css/main.366d54de.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.20869e5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83f42c9a6b32bad1198a",
-    "url": "/static/js/main.aab607c0.chunk.js"
+    "revision": "5ad8b9d468bbc29a635c",
+    "url": "/static/js/main.09117294.chunk.js"
   },
   {
     "revision": "766df7dbb5392e1314ed",
     "url": "/static/js/runtime-main.9c9c41ef.js"
   },
   {
-    "revision": "5d3ed0f1c515793c1d6c48f41d1b20d3",
-    "url": "/static/media/Christian_Montero_Resume.5d3ed0f1.pdf"
+    "revision": "4129ca056c997b0d40ba98ab00e6a50b",
+    "url": "/static/media/resume2020.4129ca05.pdf"
   },
   {
     "revision": "662d42323b8402277f5e181c03206d32",
