@@ -22,7 +22,7 @@ const Skills = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="tech">
                                     <Row>
-                                        <Col>
+                                        <Col xs={12} sm={12} md={6} lg={6}>
                                             <ul id="skills-list">
                                                 <li> Javascript (ES6+)</li>
                                                 <li> Python </li>

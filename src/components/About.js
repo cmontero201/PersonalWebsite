@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap/';
 
 import self from '../img/self.png'
-import resume from '../resume/Christian_Montero_Resume.pdf'
+import resume from '../resume/resume2020.pdf'
 
 const About = () => {
     return (

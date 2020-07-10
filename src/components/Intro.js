@@ -1,7 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Intro = () => {
     return (
@@ -10,14 +8,14 @@ const Intro = () => {
                 <div className="intro-container">
                     <h1 id='intro1'> Hello! My name is </h1>
                     <h2 id='intro2'> Christian Montero. </h2>
-                    <h3 id='intro3'> I love building things. </h3>
+                    <h3 id='intro3'> I'm looking for challenging opportunities. </h3>
 
                     <Row>
                         <Col id='blurb' sm={12} md={9} lg={8}>
                             <div>
                                 <p>
                                     I'm a software engineer based in the New York Metro Area interested
-                                    in creating modern, user-oriented, and accessible web applications!
+                                    in creating scalable and modifiable RESTful web applications!
                                     <br />
                                     <br />
                                     I love solving puzzles and approaching problems from different
