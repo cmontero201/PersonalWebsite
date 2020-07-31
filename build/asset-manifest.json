@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49a281a5.chunk.css",
+    "main.js": "/static/js/main.98710571.chunk.js",
+    "main.js.map": "/static/js/main.98710571.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.14257f33.chunk.js": "/static/js/2.14257f33.chunk.js",
+    "static/js/2.14257f33.chunk.js.map": "/static/js/2.14257f33.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aa3c2530dd82a3f50aff0e2476db23a9.js": "/precache-manifest.aa3c2530dd82a3f50aff0e2476db23a9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.49a281a5.chunk.css.map": "/static/css/main.49a281a5.chunk.css.map",
+    "static/js/2.14257f33.chunk.js.LICENSE.txt": "/static/js/2.14257f33.chunk.js.LICENSE.txt",
+    "static/media/covid-screenshot.png": "/static/media/covid-screenshot.3668787c.png",
+    "static/media/gedcom-screenshot.png": "/static/media/gedcom-screenshot.e9559ff9.png",
+    "static/media/recipe-screenshot.png": "/static/media/recipe-screenshot.0546244b.png",
+    "static/media/resume2020.pdf": "/static/media/resume2020.91a54da3.pdf",
+    "static/media/self.png": "/static/media/self.662d4232.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c9c41ef.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.14257f33.chunk.js",
+    "static/css/main.49a281a5.chunk.css",
+    "static/js/main.98710571.chunk.js"
+  ]
+}
