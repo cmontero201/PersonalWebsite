@@ -57,8 +57,8 @@ const About = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xs={12} id="resume-link-container" sm={12} md={8} lg={8}>
-                            <a id="resume-link" className="link"  href={resume} target = "_blank" rel="noopener noreferrer"> Resume </a>
+                        <Col xs={12} className="resume-link-container" sm={12} md={8} lg={8}>
+                            <a id="resume-link" className="link" href={resume} target="_blank" rel="noopener noreferrer"> Resume </a>
                         </Col>
                     </Row>
                 </div>

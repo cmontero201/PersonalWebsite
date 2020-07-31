@@ -34,7 +34,7 @@ const NotFound = () => {
                 </Row>
                 <Row className="notFound">
                     <div>
-                        <h3> <a id="intro1return" href="/" target="_blank" rel="noopener noreferrer"> Return to Previous Page!</a> </h3>
+                        <h3> <a id="intro1return" href="/" > Return to Previous Page!</a> </h3>
                     </div>
                 </Row>
             </Row>

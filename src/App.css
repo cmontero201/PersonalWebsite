@@ -2,7 +2,10 @@
   text-align: left;
   font-family: 'Oswald', sans-serif;
   background-color:whitesmoke;
-  
+}
+
+#root {
+  width: 100vw;
 }
 
 .App-logo {
@@ -41,8 +44,8 @@
 }
 
 .content {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 p, a, body {
@@ -114,9 +117,9 @@ hr {
 }
 
 #intro2, #intro3 {
-  font-size: calc(50px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(50px + (26 - 14) * ((55vw - 300px) / (1600 - 300)));
   font-weight: 600;
-  line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));;
+  line-height: calc(1.5em + (1.5 - 1.2) * ((55vw - 300px)/(1600 - 300)));;
 }
 
 #intro2 {
@@ -171,7 +174,7 @@ hr {
   border: 5px solid #0056b3;
 } */
 
-#resume-link-container {
+.resume-link-container {
   padding-top: 2.5rem;
 }
 
@@ -198,7 +201,7 @@ hr {
 
 #skills {
   padding-top: 10rem;
-  padding-bottom: 15rem;
+  padding-bottom: 5rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -215,13 +218,42 @@ hr {
   padding-bottom: 10rem;
 }
 
+#project2 {
+  justify-content: flex-end ;
+}
+.project-contain {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.project-title {
+  z-index: 1;
+  border-bottom: 2px solid black;
+}
+#p1title, #p3title{
+  text-align: left;
+}
+#p2title, #p2subtitle {
+  text-align: right ;
+}
+
+.proj-link {
+  display: inline-block;
+  border: 1.25px solid #0056b3;
+  border-radius: 5%;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 5px;
+  line-height: 1;
+  padding: 1rem 2rem;
+}
+
 /* -------- CONTACT -------- */
 .contact-container {
   text-align: left;
 }
 
 #contact {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
 }
 
@@ -233,7 +265,7 @@ hr {
 .page-footer {
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.75rem;
   font-size: 10px;
   font-weight: 300;
 }
@@ -279,3 +311,4 @@ hr {
   font-weight: 900;
   color: rgb(118, 210, 76);
 }
+
